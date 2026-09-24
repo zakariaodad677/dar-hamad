@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=5"/>
+  <title>Menu — Dar Hamad | Authentic Kuwaiti Cuisine</title>
+  <meta name="description" content="Browse the full Dar Hamad menu — authentic Kuwaiti breakfast, signature mains (Machbous, Murabyan, Margouga), salads, appetizers, desserts and more. Order online or dine in."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Montserrat:wght@400;500;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="shared.css"/>
+  <link rel="stylesheet" href="menu.css"/>
+</head>
+<body>
+
+<!-- Nav injected by components.js -->
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="page-hero__pattern" aria-hidden="true"></div>
+  <div class="container page-hero__content">
+    <p class="page-hero__breadcrumb"><a href="index.html">Home</a> / Menu</p>
+    <h1>Our Menu</h1>
+    <span class="page-hero__ar" lang="ar">قائمتنا</span>
+    <p>Authentic Kuwaiti cuisine — from sunrise breakfast platters to evening family gatherings.</p>
+  </div>
+</div>
+
+<!-- TIME-AWARE BANNER -->
+<div id="timeBanner" class="time-banner" role="status" aria-live="polite">
+  <div class="time-banner__inner container">
+    <div class="time-banner__icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" width="18" height="18"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+    </div>
+    <span id="timeBannerText">Loading…</span>
+    <a href="https://www.orderdarhamad.com/en" target="_blank" rel="noopener" class="time-banner__link">Order on Official Site →</a>
+  </div>
+</div>
+
+<!-- SEARCH -->
+<div class="menu-search-bar">
+  <div class="container">
+    <div class="menu-search-wrap">
+      <svg viewBox="0 0 24 24" fill="none" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/></svg>
+      <input type="text" id="menuSearch" placeholder="Search dishes…" aria-label="Search dishes" autocomplete="off"/>
+      <button id="menuSearchClear" class="menu-search-clear" aria-label="Clear search" style="display:none">✕</button>
+    </div>
+  </div>
+</div>
+
+<!-- STICKY CATEGORY BAR -->
+<nav class="cat-bar" id="catBar" aria-label="Menu categories">
+  <div class="cat-bar__inner container">
+    <button class="cat-tab active" data-target="breakfast">
+      <span>Breakfast</span><span class="cat-tab__ar" lang="ar">الفطور</span>
+    </button>
+    <button class="cat-tab" data-target="salads">
+      <span>Salads</span><span class="cat-tab__ar" lang="ar">السلطات</span>
+    </button>
+    <button class="cat-tab" data-target="appetizers">
+      <span>Appetizers</span><span class="cat-tab__ar" lang="ar">المقبلات</span>
+    </button>
+    <button class="cat-tab" data-target="mains">
+      <span>Mains</span><span class="cat-tab__ar" lang="ar">الأطباق الرئيسية</span>
+    </button>
+    <button class="cat-tab" data-target="group">
+      <span>Group Dishes</span><span class="cat-tab__ar" lang="ar">أطباق المجموعات</span>
+    </button>
+    <button class="cat-tab" data-target="desserts">
+      <span>Desserts</span><span class="cat-tab__ar" lang="ar">الحلويات</span>
+    </button>
+    <button class="cat-tab" data-target="beverages">
+      <span>Beverages</span><span class="cat-tab__ar" lang="ar">المشروبات</span>
+    </button>
+    <button class="cat-tab" data-target="sandoog">
+      <span>DH Sandoog</span><span class="cat-tab__ar" lang="ar">صندوق دار حمد</span>
+    </button>
+  </div>
+</nav>
+
+<!-- SEARCH RESULTS COUNT -->
+<div id="searchResults" class="search-results-info container hidden"></div>
+
+<!-- MENU CONTENT -->
+<main class="menu-content">
+  <div class="container">
+
+    <!-- ══ BREAKFAST ═══════════════════════════════ -->
+    <section id="breakfast" class="menu-section" data-section="breakfast">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">01</div>
+          <div>
+            <h2 class="menu-section-title">Breakfast Menu</h2>
+            <p class="menu-section-title__ar" lang="ar">قائمة الفطور</p>
+          </div>
+        </div>
+        <div class="menu-section-hours">
+          <svg viewBox="0 0 24 24" fill="none" width="14" height="14" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+          8:00 AM – 12:30 PM
+        </div>
+      </div>
+
+      <div class="dish-grid">
+
+        <article class="dish-card" data-name="Breakfast Meal Box صندوق الفطور">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M3 11l19-9-9 19-2-8-8-2z" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Breakfast Meal Box</h3>
+                <span class="dish-card__name-ar" lang="ar">صندوق الفطور</span>
+              </div>
+              <span class="dish-card__price">6.500 KD</span>
+            </div>
+            <p class="dish-card__desc">A curated Kuwaiti breakfast selection featuring dips, spreads, eggs, and traditional bread. Perfect for one.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge dish-card__badge--time">Breakfast Only</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--signature" data-name="Dar Hamad Platter طبق دار حمد">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__badge-floating">Signature</div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Dar Hamad Platter</h3>
+                <span class="dish-card__name-ar" lang="ar">طبق دار حمد</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">The signature breakfast board: feta cheese, English cheddar, peach jam, honey, gaimar (clotted cream), labneh, hummus, zaatar, rehash (date paste), and fresh dates — served with traditional bread and regag.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge dish-card__badge--time">Breakfast Only</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Balaleet بلاليط">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Balaleet</h3>
+                <span class="dish-card__name-ar" lang="ar">بلاليط</span>
+              </div>
+              <span class="dish-card__price">1.950 KD</span>
+            </div>
+            <p class="dish-card__desc">Sweet vermicelli noodles spiced with cardamom and saffron, crowned with a thin golden omelet. A beloved Kuwaiti breakfast classic.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge dish-card__badge--time">Breakfast Only</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Kuwaiti Mahalabia مهلبية كويتية">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8 14s1.5 2 4 2 4-2 4-2" stroke="currentColor" stroke-width="1.5"/><path d="M9 9h.01M15 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M21 12A9 9 0 113 12" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Kuwaiti Mahalabia</h3>
+                <span class="dish-card__name-ar" lang="ar">محلبية كويتية</span>
+              </div>
+              <span class="dish-card__price">2.000 KD</span>
+            </div>
+            <p class="dish-card__desc">Traditional chilled milk pudding scented with rose water and orange blossom, finished with pistachios and rose petal jam.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge dish-card__badge--time">Breakfast Only</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Gurs Ogaily قرص عقيلي">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Gurs Ogaily</h3>
+                <span class="dish-card__name-ar" lang="ar">قرص عقيلي</span>
+              </div>
+              <span class="dish-card__price">2.000 KD</span>
+            </div>
+            <p class="dish-card__desc">Kuwaiti saffron and cardamom cake, served warm with a rich saffron caramel sauce. A cherished traditional sweet.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge dish-card__badge--time">Breakfast Only</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Mughamasat Dips Spreads مغمسات">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M2 12h20M12 2v20" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Mughamasat Selection</h3>
+                <span class="dish-card__name-ar" lang="ar">مغمسات</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Individual dips and spreads: Hummus, Labneh, Zaatar with olive oil, Feta with mint, Rehash (date paste), Gaimar (clotted cream), or Honey — served with warm fresh bread.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge dish-card__badge--time">Breakfast Only</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ SALADS & SOUPS ══════════════════════════ -->
+    <section id="salads" class="menu-section" data-section="salads">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">02</div>
+          <div>
+            <h2 class="menu-section-title">Salads &amp; Soups</h2>
+            <p class="menu-section-title__ar" lang="ar">السلطات والشوربات</p>
+          </div>
+        </div>
+        <div class="menu-section-hours">
+          <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+          1:00 PM – 11:00 PM
+        </div>
+      </div>
+      <div class="dish-grid">
+
+        <article class="dish-card dish-card--signature" data-name="Dar Hamad Salad سلطة دار حمد">
+          <div class="dish-card__img">
+            <img src="dar_hamad_salad.jpg" alt="Dar Hamad Signature Salad" loading="lazy"/>
+          </div>
+          <div class="dish-card__badge-floating">Signature</div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Dar Hamad Salad</h3>
+                <span class="dish-card__name-ar" lang="ar">سلطة دار حمد</span>
+              </div>
+              <div class="dish-card__size-price">
+                <span class="dish-card__price">Small / Large</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Crispy matai crisps and fresh vegetables tossed in our signature cool yoghurt and lemon dressing with fresh mango. Light, bright and unmistakably Kuwaiti.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Garden Salad سلطة الحديقة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22V12M12 12C12 12 8 10 5 6c4 0 7 2 7 6zM12 12c0 0 4-2 7-6-4 0-7 2-7 6z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Garden Salad</h3>
+                <span class="dish-card__name-ar" lang="ar">سلطة الحديقة</span>
+              </div>
+              <span class="dish-card__price">Small / Large</span>
+            </div>
+            <p class="dish-card__desc">Crisp seasonal greens, tomatoes, cucumber, and herbs with a light house dressing.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Rocket Salad سلطة الجرجير">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22V12M12 12C12 12 8 10 5 6c4 0 7 2 7 6zM12 12c0 0 4-2 7-6-4 0-7 2-7 6z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Rocket Salad</h3>
+                <span class="dish-card__name-ar" lang="ar">سلطة الجرجير</span>
+              </div>
+              <span class="dish-card__price">Small / Large</span>
+            </div>
+            <p class="dish-card__desc">Peppery fresh rocket leaves with shaved parmesan, cherry tomatoes, and lemon vinaigrette.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Eggplant Salad سلطة باذنجان">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22V12M12 12C12 12 8 10 5 6c4 0 7 2 7 6zM12 12c0 0 4-2 7-6-4 0-7 2-7 6z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Eggplant Salad</h3>
+                <span class="dish-card__name-ar" lang="ar">سلطة الباذنجان</span>
+              </div>
+              <span class="dish-card__price">Small / Large</span>
+            </div>
+            <p class="dish-card__desc">Roasted eggplant with warm spices, tahini and fresh herbs. Smoky, rich and deeply satisfying.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Jereesh Salad سلطة جريش">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22V12M12 12C12 12 8 10 5 6c4 0 7 2 7 6zM12 12c0 0 4-2 7-6-4 0-7 2-7 6z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Jereesh Salad</h3>
+                <span class="dish-card__name-ar" lang="ar">سلطة جريش</span>
+              </div>
+              <span class="dish-card__price">Small / Large</span>
+            </div>
+            <p class="dish-card__desc">Crushed wheat (jereesh) salad with pomegranate seeds, fresh herbs, and a tangy pomegranate dressing.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Tabbouleh Yogurt Salad تبولة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Tabbouleh &amp; Yogurt Salad</h3>
+                <span class="dish-card__name-ar" lang="ar">تبولة وسلطة لبن</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Fresh parsley tabbouleh with crushed wheat and lemon, plus a cool yogurt salad with cucumber and dried mint.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Chicken Soup شوربة دجاج">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Chicken Soup</h3>
+                <span class="dish-card__name-ar" lang="ar">شوربة دجاج</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Rich homestyle chicken broth with vegetables, slow-cooked and spiced the traditional Kuwaiti way.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Serves 3–4</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Lentil Soup شوربة عدس">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Lentil Soup</h3>
+                <span class="dish-card__name-ar" lang="ar">شوربة عدس</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Velvety blended lentil soup with warm cumin, turmeric, and a squeeze of lemon. Comforting and deeply flavourful.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Serves 3–4</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ APPETIZERS ═══════════════════════════════ -->
+    <section id="appetizers" class="menu-section" data-section="appetizers">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">03</div>
+          <div>
+            <h2 class="menu-section-title">Appetizers</h2>
+            <p class="menu-section-title__ar" lang="ar">المقبلات</p>
+          </div>
+        </div>
+        <div class="menu-section-hours">
+          <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+          1:00 PM – 11:00 PM
+        </div>
+      </div>
+      <div class="dish-grid">
+
+        <article class="dish-card" data-name="Dill Kubbah كبة شبت">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Dill Kubbah</h3>
+                <span class="dish-card__name-ar" lang="ar">كبة الشبت</span>
+              </div>
+              <span class="dish-card__price">3.750 KD <small>/ dozen</small></span>
+            </div>
+            <p class="dish-card__desc">Handmade bulgur shells filled with spiced minced lamb and fragrant dill. Fried to a perfect golden crisp.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Arabana Kubbah كبة عربانة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Arabana Kubbah</h3>
+                <span class="dish-card__name-ar" lang="ar">كبة عربانة</span>
+              </div>
+              <span class="dish-card__price">~3.500 KD <small>/ dozen</small></span>
+            </div>
+            <p class="dish-card__desc">Traditional oblong kibbeh filled with spiced lamb and pine nuts — a Gulf staple done with precision.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Potato Kubbah كبة بطاطس">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Potato Kubbah</h3>
+                <span class="dish-card__name-ar" lang="ar">كبة البطاطس</span>
+              </div>
+              <span class="dish-card__price">~3.500 KD <small>/ dozen</small></span>
+            </div>
+            <p class="dish-card__desc">Crispy mashed potato shells stuffed with seasoned minced meat and caramelised onions.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Sambousa سمبوسة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><polygon points="12,3 22,21 2,21" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Sambousa</h3>
+                <span class="dish-card__name-ar" lang="ar">سمبوسة</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Light flaky pastry parcels filled with spiced minced lamb and herbs. A beloved Gulf appetizer.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Ebraq Dulma عبراق">
+          <div class="dish-card__img">
+            <img src="ebraq_dish.jpg" alt="Ebraq — Kuwaiti stuffed grape leaves" loading="lazy"/>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Ebraq (Dulma)</h3>
+                <span class="dish-card__name-ar" lang="ar">عبراق / دلمة</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Delicately rolled grape leaves stuffed with spiced rice and lamb — tender, tangy, and perfectly seasoned.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--highlight" data-name="Mixed Appetizers مشكل مقبلات">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="7" height="7" stroke="currentColor" stroke-width="1.5"/><rect x="14" y="3" width="7" height="7" stroke="currentColor" stroke-width="1.5"/><rect x="3" y="14" width="7" height="7" stroke="currentColor" stroke-width="1.5"/><rect x="14" y="14" width="7" height="7" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Mixed Appetizers</h3>
+                <span class="dish-card__name-ar" lang="ar">مشكل مقبلات</span>
+              </div>
+              <span class="dish-card__price">16.000 KD</span>
+            </div>
+            <p class="dish-card__desc">A generous assortment of 42 pieces — kibbeh, sambousa, ebraq and more. Perfect for sharing at the table.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">42 Pieces</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Maabij Relishes معابيج">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Maabij Relishes</h3>
+                <span class="dish-card__name-ar" lang="ar">معابيج</span>
+              </div>
+              <span class="dish-card__price">3.950 KD</span>
+            </div>
+            <p class="dish-card__desc">Traditional Kuwaiti pickled relishes and condiments — the perfect table companion for any main course.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ INDIVIDUAL MAINS ════════════════════════ -->
+    <section id="mains" class="menu-section" data-section="mains">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">04</div>
+          <div>
+            <h2 class="menu-section-title">Individual Mains</h2>
+            <p class="menu-section-title__ar" lang="ar">الأطباق الرئيسية الفردية</p>
+          </div>
+        </div>
+        <div class="menu-section-hours">
+          <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+          1:00 PM – 11:00 PM
+        </div>
+      </div>
+      <div class="dish-grid">
+
+        <article class="dish-card dish-card--signature" data-name="Lamb Machboos مجبوس لحم" id="machbous">
+          <div class="dish-card__img">
+            <img src="hero_machbous.jpg" alt="Lamb Machboos — signature saffron rice with tender lamb" loading="lazy"/>
+          </div>
+          <div class="dish-card__badge-floating">Signature</div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Lamb Machboos</h3>
+                <span class="dish-card__name-ar" lang="ar">مجبوس لحم</span>
+              </div>
+              <span class="dish-card__price">6.450 KD</span>
+            </div>
+            <p class="dish-card__desc">Dar Hamad's most celebrated dish: boneless lamb slow-cooked on saffron basmati rice with caramelised onions, raisins, rose water, and loomi (dried lime). Served with daqoos (tomato sauce) and green chilli.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Individual</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Chicken Machboos مجبوس دجاج">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c-1.2 5.4-5 7.2-5 12a5 5 0 0010 0c0-4.8-3.8-6.6-5-12z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Chicken Machboos</h3>
+                <span class="dish-card__name-ar" lang="ar">مجبوس دجاج</span>
+              </div>
+              <span class="dish-card__price">4.950 KD</span>
+            </div>
+            <p class="dish-card__desc">Fragrant basmati rice cooked in spiced chicken broth with whole roasted chicken, caramelised onions, raisins, and the signature Kuwaiti spice blend.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Individual</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--signature" data-name="Murabyan مربيان مربين" id="murabyan">
+          <div class="dish-card__img">
+            <img src="murabyan_dish.jpg" alt="Murabyan — Kuwaiti prawn saffron rice" loading="lazy"/>
+          </div>
+          <div class="dish-card__badge-floating">Chef's Pick</div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Murabyan</h3>
+                <span class="dish-card__name-ar" lang="ar">مربيان</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Kuwait's prized coastal treasure: fragrant saffron rice layered with fresh Gulf prawns, cooked in a rich prawn broth with loomi, onions and warm spices. Served with daqoos.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Individual</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Chicken Biryani برياني دجاج">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3c-1.2 5.4-5 7.2-5 12a5 5 0 0010 0c0-4.8-3.8-6.6-5-12z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Chicken Biryani</h3>
+                <span class="dish-card__name-ar" lang="ar">برياني دجاج</span>
+              </div>
+              <span class="dish-card__price">5.950 KD</span>
+            </div>
+            <p class="dish-card__desc">Layered dum-cooked biryani with tender chicken, fragrant basmati, and the Persian-Kuwaiti spice tradition that defines the Gulf's finest rice dishes.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Individual</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Mashwi Jidr مشوي جدر">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Mashwi Jidr</h3>
+                <span class="dish-card__name-ar" lang="ar">مشوي جدر</span>
+              </div>
+              <span class="dish-card__price">7.950 KD</span>
+            </div>
+            <p class="dish-card__desc">Kuwaiti oven-grilled meat (jidr) — succulent lamb pieces baked in a sealed clay pot with rice and a masterful blend of warming spices. The most premium individual main.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Individual</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Margouga مرقوقة" id="margouga">
+          <div class="dish-card__img">
+            <img src="margouga_dish.jpg" alt="Margouga — slow-cooked Kuwaiti lamb stew" loading="lazy"/>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Margouga</h3>
+                <span class="dish-card__name-ar" lang="ar">مرقوقة</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Traditional Kuwaiti slow-cooked stew of lamb, zucchini, eggplant, tomato and spices with thin rustic dough sheets (like thick pasta) absorbing the rich broth. Deeply comforting.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Gaboot قبوط">
+          <div class="dish-card__img">
+            <img src="gaboot_dish.jpg" alt="Gaboot — Kuwaiti stuffed dough in broth" loading="lazy"/>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Gaboot</h3>
+                <span class="dish-card__name-ar" lang="ar">قبوط</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Soft stuffed dough pockets filled with spiced lamb and onion, simmered in a rich amber tomato and spice broth until tender and full of flavour.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Prawn Hamsa روبيان حمسة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3C6.48 3 2 7.48 2 13a10 10 0 0010 10c1.19 0 2.34-.21 3.41-.59" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Prawn Hamsa</h3>
+                <span class="dish-card__name-ar" lang="ar">روبيان حمسة</span>
+              </div>
+              <span class="dish-card__price">4.900 KD</span>
+            </div>
+            <p class="dish-card__desc">Gulf prawns sautéed with traditional Kuwaiti hamsa spices — turmeric, cumin, coriander and dried lime. Served with warm khubz.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Chicken Shawarma شاورما دجاج">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Chicken Shawarma</h3>
+                <span class="dish-card__name-ar" lang="ar">شاورما دجاج</span>
+              </div>
+              <span class="dish-card__price">3.500 KD</span>
+            </div>
+            <p class="dish-card__desc">Slow-roasted marinated chicken wrapped in warm bread with garlic sauce and pickles — Dar Hamad's version of a Levantine classic.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ GROUP DISHES ═══════════════════════════ -->
+    <section id="group" class="menu-section" data-section="group">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">05</div>
+          <div>
+            <h2 class="menu-section-title">Group &amp; Family Dishes</h2>
+            <p class="menu-section-title__ar" lang="ar">أطباق العائلة والمجموعات</p>
+          </div>
+        </div>
+        <div class="menu-section-hours">
+          <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+          1:00 PM – 11:00 PM
+        </div>
+      </div>
+
+      <div class="advance-notice-info" role="note">
+        <svg viewBox="0 0 24 24" fill="none" width="18" height="18" aria-hidden="true"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v4M12 16h.01" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        <p>Group dishes marked <strong>Advance Notice</strong> require a minimum <strong>3-hour</strong> pre-order. Please call <a href="tel:+96522275555">+965 2227 5555</a> or order directly on the official website.</p>
+      </div>
+
+      <div class="dish-grid dish-grid--group">
+
+        <article class="dish-card dish-card--group" data-name="Chicken Machboos Group مجبوس دجاج عائلي">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Chicken Machboos (Group)</h3>
+                <span class="dish-card__name-ar" lang="ar">مجبوس دجاج (عائلي)</span>
+              </div>
+              <span class="dish-card__price">17.000 KD</span>
+            </div>
+            <p class="dish-card__desc">The family-size version of our signature chicken machboos — a generous portion that serves a full table, prepared fresh to order with the same careful spice blend.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Serves 3–4</span>
+              <span class="dish-card__badge dish-card__badge--notice">3hr Advance Notice</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--group" data-name="Lamb Machboos Group مجبوس لحم عائلي">
+          <div class="dish-card__img">
+            <img src="hero_machbous.jpg" alt="Lamb Machboos group serving" loading="lazy"/>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Lamb Machboos (Group)</h3>
+                <span class="dish-card__name-ar" lang="ar">مجبوس لحم (عائلي)</span>
+              </div>
+              <span class="dish-card__price">22.000 KD</span>
+            </div>
+            <p class="dish-card__desc">The flagship dish scaled for the whole family — tender lamb, saffron rice, raisins, and rose water in a large platter. The very heart of Dar Hamad's kitchen.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Serves 3–4</span>
+              <span class="dish-card__badge dish-card__badge--notice">3hr Advance Notice</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--group" data-name="Mashwi Jidr Group مشوي جدر عائلي">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Mashwi Jidr (Group)</h3>
+                <span class="dish-card__name-ar" lang="ar">مشوي جدر (عائلي)</span>
+              </div>
+              <span class="dish-card__price">25.000 KD</span>
+            </div>
+            <p class="dish-card__desc">Dar Hamad's most premium group offering — jidr-roasted lamb on spiced rice, slow-baked in a sealed vessel for maximum flavour and tenderness. Worthy of every occasion.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Serves 3–4</span>
+              <span class="dish-card__badge dish-card__badge--notice">3hr Advance Notice</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Frozen Bags -->
+        <article class="dish-card dish-card--group" data-name="Frozen Appetizer Bag شنطة مجمدة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M20.38 3.46L16 2a4 4 0 01.94 6.07L21 12l-2.12 2.12-4.24-4.24-4.24 4.24L8.29 12 12 8.29l-4.94-4.94A4 4 0 018 7.06L4 4" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Frozen Appetizer Bag — Small</h3>
+                <span class="dish-card__name-ar" lang="ar">شنطة مجمدة صغيرة</span>
+              </div>
+              <span class="dish-card__price">23.000 KD</span>
+            </div>
+            <p class="dish-card__desc">Take the Dar Hamad appetizer experience home. A frozen assortment of 6 dozen mixed appetizers — ready to fry when you need them.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">6 Dozen (72 pcs)</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card dish-card--group" data-name="Frozen Appetizer Bag Large شنطة مجمدة كبيرة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M20.38 3.46L16 2a4 4 0 01.94 6.07L21 12l-2.12 2.12-4.24-4.24-4.24 4.24L8.29 12 12 8.29l-4.94-4.94A4 4 0 018 7.06L4 4" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Frozen Appetizer Bag — Large</h3>
+                <span class="dish-card__name-ar" lang="ar">شنطة مجمدة كبيرة</span>
+              </div>
+              <span class="dish-card__price">45.000 KD</span>
+            </div>
+            <p class="dish-card__desc">The ultimate hosting solution: 12 dozen mixed frozen appetizers from Dar Hamad's kitchen — enough for a full diwaniya gathering.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">12 Dozen (144 pcs)</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ DESSERTS ═══════════════════════════════ -->
+    <section id="desserts" class="menu-section" data-section="desserts">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">06</div>
+          <div>
+            <h2 class="menu-section-title">Desserts</h2>
+            <p class="menu-section-title__ar" lang="ar">الحلويات</p>
+          </div>
+        </div>
+      </div>
+      <div class="dish-grid">
+
+        <article class="dish-card dish-card--signature" data-name="Date Pudding بودينغ التمر" id="desserts-anchor">
+          <div class="dish-card__img">
+            <img src="date_pudding.jpg" alt="Kuwaiti Date Pudding with toffee caramel" loading="lazy"/>
+          </div>
+          <div class="dish-card__badge-floating">Signature</div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Date Pudding</h3>
+                <span class="dish-card__name-ar" lang="ar">بودينغ التمر</span>
+              </div>
+              <span class="dish-card__price">4.500 KD</span>
+            </div>
+            <p class="dish-card__desc">Warm sticky date sponge cake drenched in golden toffee caramel sauce, served with a scoop of premium vanilla ice cream. Kuwait's most beloved dessert moment.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Mahalabia مهلبية">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M8 14s1.5 2 4 2 4-2 4-2" stroke="currentColor" stroke-width="1.5"/><path d="M9 9h.01M15 9h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Mahalabia</h3>
+                <span class="dish-card__name-ar" lang="ar">مهلبية</span>
+              </div>
+              <span class="dish-card__price">2.000 KD</span>
+            </div>
+            <p class="dish-card__desc">Silky chilled milk pudding scented with rose water and orange blossom water. Crowned with pistachios, rose petals, and rose petal jam.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Gurs Ogaily Dessert قرص عقيلي">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Gurs Ogaily</h3>
+                <span class="dish-card__name-ar" lang="ar">قرص عقيلي</span>
+              </div>
+              <span class="dish-card__price">2.000 KD</span>
+            </div>
+            <p class="dish-card__desc">Traditional Kuwaiti saffron and cardamom cake served warm with a drizzle of golden saffron caramel sauce — a dessert deeply rooted in Kuwaiti heritage.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Aseeda عصيدة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v8" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Aseeda</h3>
+                <span class="dish-card__name-ar" lang="ar">عصيدة</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Traditional Gulf sweet porridge made from flour, clarified butter, date syrup, and warm spices. Comfort in its most elemental Kuwaiti form.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Ghraybeh غريبة">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="4" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Ghraybeh</h3>
+                <span class="dish-card__name-ar" lang="ar">غريبة</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Kuwaiti shortbread biscuits made with clarified butter and saffron — delicately crumbly, subtly sweet, and deeply traditional.</p>
+            <div class="dish-card__footer">
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ BEVERAGES ═══════════════════════════════ -->
+    <section id="beverages" class="menu-section" data-section="beverages">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">07</div>
+          <div>
+            <h2 class="menu-section-title">Beverages</h2>
+            <p class="menu-section-title__ar" lang="ar">المشروبات</p>
+          </div>
+        </div>
+        <div class="menu-section-hours">
+          <svg viewBox="0 0 24 24" fill="none" width="14" height="14"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/><polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="1.5"/></svg>
+          All Day — 8:00 AM – 11:00 PM
+        </div>
+      </div>
+      <div class="bev-grid">
+        <div class="bev-card">
+          <div class="bev-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M17 8h1a4 4 0 010 8h-1M3 8h14v9a4 4 0 01-4 4H7a4 4 0 01-4-4V8z" stroke="currentColor" stroke-width="1.5"/><path d="M6 1v3M10 1v3M14 1v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Cardamom Tea</h3>
+          <span lang="ar" class="ar">شاي هيل</span>
+          <p>Darjeeling tea brewed with whole green cardamom pods. The soul of the Kuwaiti morning.</p>
+        </div>
+        <div class="bev-card">
+          <div class="bev-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Arabic Coffee</h3>
+          <span lang="ar" class="ar">قهوة عربية</span>
+          <p>Lightly roasted Arabic coffee (gahwa) spiced with cardamom and saffron, served in a traditional dallah.</p>
+        </div>
+        <div class="bev-card">
+          <div class="bev-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z" stroke="currentColor" stroke-width="1.5"/><path d="M6 4h.01M10 4h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Regular Tea &amp; Coffee</h3>
+          <span lang="ar" class="ar">شاي وقهوة</span>
+          <p>Classic black tea and freshly brewed coffee for those who prefer simplicity.</p>
+        </div>
+        <div class="bev-card">
+          <div class="bev-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M12 22V6M5 12H2a10 10 0 0020 0h-3" stroke="currentColor" stroke-width="1.5"/><path d="M12 6C12 4.9 11.1 4 10 4H5L3 6h9z" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Fresh Juices</h3>
+          <span lang="ar" class="ar">عصائر طازجة</span>
+          <p>Seasonal fresh-pressed juices. Ask your server for today's selection.</p>
+        </div>
+        <div class="bev-card">
+          <div class="bev-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" width="28" height="28"><path d="M12 2v4M6.34 6.34l2.83 2.83M2 12h4M6.34 17.66l2.83-2.83M12 18v4M17.66 17.66l-2.83-2.83M20 12h-4M17.66 6.34l-2.83 2.83" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Mineral Water</h3>
+          <span lang="ar" class="ar">مياه معدنية</span>
+          <p>Still and sparkling mineral water served chilled.</p>
+        </div>
+      </div>
+      <div style="text-align:center;margin-top:32px">
+        <button class="btn btn--gold" onclick="document.getElementById('authModal').classList.add('active')">Order All Day Menu</button>
+      </div>
+    </section>
+
+    <div class="menu-divider" aria-hidden="true"><span>◆</span></div>
+
+    <!-- ══ DH SANDOOG JARS ══════════════════════════ -->
+    <section id="sandoog" class="menu-section" data-section="sandoog">
+      <div class="menu-section-header">
+        <div class="menu-section-header__left">
+          <div class="menu-section-num" aria-hidden="true">08</div>
+          <div>
+            <h2 class="menu-section-title">DH Sandoog — Artisan Jars</h2>
+            <p class="menu-section-title__ar" lang="ar">صندوق دار حمد — المرتبات</p>
+          </div>
+        </div>
+      </div>
+      <p class="sandoog-intro">Artisan Kuwaiti relish jars inspired by the traditional Sandoog (dowry box) — the perfect gift or table companion. Take the Dar Hamad kitchen home.</p>
+      <div class="dish-grid">
+
+        <article class="dish-card" data-name="Pumpkin Mabooj مبوج قرع">
+          <div class="dish-card__img">
+            <img src="sandoog_boutique.jpg" alt="Dar Hamad Sandoog artisan jar" loading="lazy"/>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Pumpkin Mabooj</h3>
+                <span class="dish-card__name-ar" lang="ar">مبوج القرع</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Sweet-spiced pumpkin preserve with warming Gulf spices — a traditional Kuwaiti mabooj (relish) jarred fresh from our kitchen.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Artisan Jar</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Al Dewaneya Mabooj مبوج الديوانية">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Al Dewaneya Mabooj</h3>
+                <span class="dish-card__name-ar" lang="ar">مبوج الديوانية</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">A signature house blend of Kuwaiti pickled relishes and preserved condiments — named after the traditional Kuwaiti diwaniya gathering.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Artisan Jar</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card" data-name="Beetroot Mabooj مبوج شمندر">
+          <div class="dish-card__img dish-card__img--placeholder">
+            <div class="dish-card__icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v8M8 12h8" stroke="currentColor" stroke-width="1.5"/></svg></div>
+          </div>
+          <div class="dish-card__body">
+            <div class="dish-card__top">
+              <div>
+                <h3 class="dish-card__name">Beetroot Mabooj</h3>
+                <span class="dish-card__name-ar" lang="ar">مبوج الشمندر</span>
+              </div>
+            </div>
+            <p class="dish-card__desc">Vibrant pickled beetroot with a hint of Gulf spice — a striking and delicious complement to any main course or mezze spread.</p>
+            <div class="dish-card__footer">
+              <span class="dish-card__badge">Artisan Jar</span>
+              <button class="btn btn--gold dish-card__btn" onclick="document.getElementById('authModal').classList.add('active')">Order</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- No results placeholder -->
+    <div id="noResults" class="no-results hidden" role="status">
+      <svg viewBox="0 0 24 24" fill="none" width="48" height="48" aria-hidden="true"><circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="1.5"/></svg>
+      <h3>No dishes found</h3>
+      <p>Try a different search term.</p>
+      <button id="clearSearch" class="btn btn--gold">Clear Search</button>
+    </div>
+
+  </div><!-- /container -->
+</main>
+
+<!-- ORDER CTA BANNER -->
+<section class="menu-order-cta">
+  <div class="container">
+    <div class="menu-order-cta__inner">
+      <div>
+        <h2>Ready to Order?</h2>
+        <p>Place your order on the official Dar Hamad platform — delivery, pick-up, or car pick-up across Kuwait.</p>
+      </div>
+      <div class="menu-order-cta__actions">
+        <button class="btn btn--gold" onclick="document.getElementById('authModal').classList.add('active')">Order Online Now</button>
+        <a href="branches.html" class="btn btn--outline-cream">Find a Branch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer injected by components.js -->
+<script src="components.js"></script>
+<script src="menu.js"></script>
+</body>
+</html>
+
