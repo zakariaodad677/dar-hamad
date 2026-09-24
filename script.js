@@ -191,13 +191,6 @@
     }, { passive: true });
   }
 
-  // ── Language Toggle (placeholder) ─────────
-  const langToggle = document.getElementById('langToggle');
-  if (langToggle) {
-    langToggle.addEventListener('click', () => {
-      window.location.href = 'https://www.orderdarhamad.com/ar';
-    });
-  }
 
   console.log(
     '%c Dar Hamad 🍽️ — Premium Kuwaiti Restaurant ',
